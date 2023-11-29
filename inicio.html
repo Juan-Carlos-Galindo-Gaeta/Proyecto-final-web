@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Operaciones CRUD con MongoDB - Videojuegos</title>
+    <!-- Se incluyen enlaces a archivos CSS y JavaScript -->
+    <link rel="stylesheet" href="/cssbasico.css"> <!-- Estilos básicos -->
+    <script src="/jsdelhtml.js"></script> <!-- Script JavaScript -->
+</head>
+
+<body>
+    <h1>Operaciones CRUD con MongoDB - Videojuegos</h1>
+
+    <!-- Formulario para crear un nuevo videojuego -->
+    <h2>Crear Videojuego</h2>
+    <form id="crearVideojuego">
+        <label for="nombreUsuario">Nombre de Usuario:</label>
+        <input type="text" id="nombreUsuario" name="nombreUsuario">
+        <label for="juegosFavoritos">Juegos Favoritos:</label>
+        <input type="text" id="juegosFavoritos" name="juegosFavoritos">
+        <label for="generoFavoritos">Género Favorito:</label>
+        <input type="text" id="generoFavoritos" name="generoFavoritos">
+        <label for="personajeFavorito">Personaje Favorito:</label>
+        <input type="text" id="personajeFavorito" name="personajeFavorito">
+        <button type="submit">Crear Videojuego</button>
+    </form>
+
+    <!-- Formulario para eliminar un videojuego por ID -->
+    <h2>Eliminar Videojuego</h2>
+    <form id="eliminarVideojuego">
+        <label for="eliminarId">ID del Videojuego a Eliminar:</label>
+        <input type="text" id="eliminarId" name="eliminarId">
+        <button type="submit">Eliminar Videojuego</button>
+    </form>
+    
+    <!-- Formulario para actualizar un videojuego por ID -->
+    <h2>Actualizar Videojuego</h2>
+    <form id="actualizarVideojuego">
+        <label for="actualizarId">ID del Videojuego a Actualizar:</label>
+        <input type="text" id="actualizarId" name="actualizarId">
+        <!-- Campos para ingresar los nuevos datos del videojuego -->
+        <label for="nuevoNombreUsuario">Nuevo Nombre de Usuario:</label>
+        <input type="text" id="nuevoNombreUsuario" name="nuevoNombreUsuario">
+        <label for="nuevosJuegosFavoritos">Nuevos Juegos Favoritos:</label>
+        <input type="text" id="nuevosJuegosFavoritos" name="nuevosJuegosFavoritos">
+        <label for="nuevoGeneroFavorito">Nuevo Género Favorito:</label>
+        <input type="text" id="nuevoGeneroFavorito" name="nuevoGeneroFavorito">
+        <label for="nuevoPersonajeFavorito">Nuevo Personaje Favorito:</label>
+        <input type="text" id="nuevoPersonajeFavorito" name="nuevoPersonajeFavorito">
+        <button type="submit">Actualizar Videojuego</button>
+    </form>
+
+    <!-- Formulario para buscar un videojuego por ID -->
+    <h2>Buscar Videojuego por ID</h2>
+    <form id="buscarPorId">
+        <label for="buscarId">ID del Videojuego a Buscar:</label>
+        <input type="text" id="buscarId" name="buscarId">
+        <button type="submit">Buscar Videojuego</button>
+    </form>
+
+    <!-- Sección para mostrar resultados -->
+    <div id="resultado"></div>
+</body>
+
+</html>

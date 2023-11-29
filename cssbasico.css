@@ -1,0 +1,57 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada para el texto */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 20px; /* Espaciado interno alrededor del contenido */
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Estilos para encabezados secundarios */
+h2 {
+    margin-top: 30px; /* Margen superior para separar los encabezados */
+}
+
+/* Estilos para los formularios */
+form {
+    margin-bottom: 20px; /* Margen inferior para separar los formularios */
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block; /* Hace que las etiquetas sean bloques para separar elementos */
+    margin-bottom: 5px; /* Margen inferior para separar las etiquetas */
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"] {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 8px; /* Relleno interno del campo de texto */
+    margin-bottom: 10px; /* Margen inferior para separar los campos de texto */
+}
+
+/* Estilos para botones de envío */
+button[type="submit"] {
+    padding: 8px 16px; /* Relleno interno del botón */
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde alrededor del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+}
+
+/* Estilos para el botón de envío al pasar por encima */
+button[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color de fondo del botón al pasar por encima */
+}
+
+/* Estilos para el contenedor de resultados */
+#resultado {
+    margin-top: 20px; /* Margen superior para separar los resultados */
+    padding: 10px; /* Relleno interno del contenedor de resultados */
+    border: 1px solid #ccc; /* Borde alrededor del contenedor de resultados */
+}
